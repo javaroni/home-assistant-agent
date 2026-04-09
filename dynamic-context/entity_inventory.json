@@ -1,0 +1,4788 @@
+{
+  "home_assistant_version": "2026.x",
+  "dashboard_mode": "yaml",
+  "entities": [
+    {
+      "entity_id": "alarm_control_panel.aqara_hub_m3_7069_security_system",
+      "friendly_name": "Aqara-Hub-M3-7069 Security System",
+      "domain": "alarm_control_panel",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "alarm_control_panel.santa_monica_alarm",
+      "friendly_name": "Santa Monica Alarm",
+      "domain": "alarm_control_panel",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.aqara_motion_and_light_sensor_p2_occupancy",
+      "friendly_name": "Aqara Motion and Light Sensor P2 Occupancy",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.aqara_smart_lock_u200_actuator",
+      "friendly_name": "Aqara Smart Lock U200 Actuator",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.arc_microphone",
+      "friendly_name": "Arc Microphone",
+      "domain": "binary_sensor",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.backups_stale",
+      "friendly_name": "Backups Stale",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.bedroom_entertanment_zone",
+      "friendly_name": "Beta Hue Bedroom Entertanment Zone",
+      "domain": "binary_sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.behind_tv",
+      "friendly_name": "Beta Hue Behind TV",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.betaphone17_focus",
+      "friendly_name": "BetaPhone17 Focus",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.contact_sensor_03073",
+      "friendly_name": "Contact Sensor 03073",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.contact_sensor_03073_tamper",
+      "friendly_name": "Contact Sensor 03073 Tamper",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.cosmic_girl_focus",
+      "friendly_name": "Cosmic Girl Focus",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.eero_wan_status",
+      "friendly_name": "eero WAN status",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.front_door",
+      "friendly_name": "Front Door",
+      "domain": "binary_sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.front_door_ding",
+      "friendly_name": "Front Door Ding",
+      "domain": "binary_sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.front_door_motion",
+      "friendly_name": "Front Door Motion",
+      "domain": "binary_sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.front_door_tamper",
+      "friendly_name": "Front Door Tamper",
+      "domain": "binary_sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.keypad_52030_motion",
+      "friendly_name": "Keypad 52030 Motion",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.keypad_52030_tamper",
+      "friendly_name": "Keypad 52030 Tamper",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.living_room",
+      "friendly_name": "Beta Hue Living Room",
+      "domain": "binary_sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.living_room_entertainment",
+      "friendly_name": "Beta Hue Living Room Entertainment",
+      "domain": "binary_sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.living_room_motion",
+      "friendly_name": "Living Room Motion",
+      "domain": "binary_sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.motion_detector_31982",
+      "friendly_name": "Motion Detector 31982",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.motion_detector_31982_tamper",
+      "friendly_name": "Motion Detector 31982 Tamper",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.motionaware_area",
+      "friendly_name": "Dining Room MotionAware area",
+      "domain": "binary_sensor",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.remote_ui",
+      "friendly_name": "Remote UI",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_charging",
+      "friendly_name": "Roborock Qrevo Edge Series Charging",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_cleaning",
+      "friendly_name": "Roborock Qrevo Edge Series Cleaning",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_dock_clean_water_box",
+      "friendly_name": "Roborock Qrevo Edge Series Dock Clean water box",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_dock_dirty_water_box",
+      "friendly_name": "Roborock Qrevo Edge Series Dock Dirty water box",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_dock_mop_drying",
+      "friendly_name": "Roborock Qrevo Edge Series Dock Mop drying",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_mop_attached",
+      "friendly_name": "Roborock Qrevo Edge Series Mop attached",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_water_box_attached",
+      "friendly_name": "Roborock Qrevo Edge Series Water box attached",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.roborock_qrevo_edge_series_water_shortage",
+      "friendly_name": "Roborock Qrevo Edge Series Water shortage",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.rokutv_headphones_connected",
+      "friendly_name": "RokuTV Headphones connected",
+      "domain": "binary_sensor",
+      "area": "RokuTV",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.rokutv_supports_airplay",
+      "friendly_name": "RokuTV Supports AirPlay",
+      "domain": "binary_sensor",
+      "area": "RokuTV",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.rokutv_supports_ethernet",
+      "friendly_name": "RokuTV Supports Ethernet",
+      "domain": "binary_sensor",
+      "area": "RokuTV",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.rokutv_supports_find_remote",
+      "friendly_name": "RokuTV Supports find remote",
+      "domain": "binary_sensor",
+      "area": "RokuTV",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.santa_monica_alarm_tamper",
+      "friendly_name": "Santa Monica Alarm Tamper",
+      "domain": "binary_sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.santa_monica_base_station_tamper",
+      "friendly_name": "Santa Monica Base Station Tamper",
+      "domain": "binary_sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.santa_monica_range_extender_tamper",
+      "friendly_name": "Santa Monica Range Extender Tamper",
+      "domain": "binary_sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "binary_sensor.zigbee2mqtt_bridge_connection_state",
+      "friendly_name": "Zigbee2MQTT Bridge Connection state",
+      "domain": "binary_sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.aqara_hub_m3_7069_identify",
+      "friendly_name": "Aqara-Hub-M3-7069 Identify",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.aqara_hub_m3_identify",
+      "friendly_name": "Aqara Hub M3 Identify",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.aqara_motion_and_light_sensor_p2_identify_1",
+      "friendly_name": "Aqara Motion and Light Sensor P2 Identify (1)",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.aqara_motion_and_light_sensor_p2_identify_2",
+      "friendly_name": "Aqara Motion and Light Sensor P2 Identify (2)",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.aqara_smart_lock_u200_identify",
+      "friendly_name": "Aqara Smart Lock U200 Identify",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.arc_favorite_current_song",
+      "friendly_name": "Arc Favorite current song",
+      "domain": "button",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.bedroom_favorite_current_song",
+      "friendly_name": "Bedroom Favorite current song",
+      "domain": "button",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.bedroomatv_favorite_current_song",
+      "friendly_name": "BedroomATV Favorite current song",
+      "domain": "button",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.betamacm4_favorite_current_song",
+      "friendly_name": "BetaMacM4 Favorite current song",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_evstart",
+      "friendly_name": "EV Charging start",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_extendremotestart",
+      "friendly_name": "RC (❄|☀): Extend Time",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_hafdefault",
+      "friendly_name": "Honk & Flash [3 sec.]",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_hafshort",
+      "friendly_name": "Honk & Flash [1 sec.]",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_msgdeleteall",
+      "friendly_name": "Messages: Delete All",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_msgdeletelast",
+      "friendly_name": "Messages: Delete Last",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_request_refresh",
+      "friendly_name": "Remote Sync",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.fordpass_3fmtk4se9pma00556_update_data",
+      "friendly_name": "Local Sync",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.front_door_take_snapshot",
+      "friendly_name": "Front Door Take Snapshot",
+      "domain": "button",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.gizmo_favorite_current_song",
+      "friendly_name": "Gizmo Favorite current song",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.guest_room_favorite_current_song",
+      "friendly_name": "Guest Room Favorite current song",
+      "domain": "button",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.kitchen_favorite_current_song",
+      "friendly_name": "Kitchen Favorite current song",
+      "domain": "button",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.lg_webos_tv_oled55e6p_favorite_current_song",
+      "friendly_name": "[LG] webOS TV OLED55E6P Favorite current song",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.lg_webos_tv_oled65g4sub_favorite_current_song",
+      "friendly_name": "[LG] webOS TV OLED65G4SUB Favorite current song",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.living_room_take_snapshot",
+      "friendly_name": "Living Room Take Snapshot",
+      "domain": "button",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.livingroomatv_favorite_current_song",
+      "friendly_name": "LivingRoomATV Favorite current song",
+      "domain": "button",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.oppo_udp_203_favorite_current_song",
+      "friendly_name": "OPPO UDP-203 Favorite current song",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.port_favorite_current_song",
+      "friendly_name": "Port Favorite current song",
+      "domain": "button",
+      "area": "Port",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.rickytv_favorite_current_song",
+      "friendly_name": "RickyTV Favorite current song",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.rokutv_favorite_current_song",
+      "friendly_name": "RokuTV Favorite current song",
+      "domain": "button",
+      "area": "RokuTV",
+      "notes": ""
+    },
+    {
+      "entity_id": "button.zigbee2mqtt_bridge_restart",
+      "friendly_name": "Zigbee2MQTT Bridge Restart",
+      "domain": "button",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "camera.front_door_live_view",
+      "friendly_name": "Front Door Live view",
+      "domain": "camera",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "camera.front_door_snapshot",
+      "friendly_name": "Front Door Snapshot",
+      "domain": "camera",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "camera.living_room_live_view",
+      "friendly_name": "Living Room Live view",
+      "domain": "camera",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "camera.living_room_snapshot",
+      "friendly_name": "Living Room Snapshot",
+      "domain": "camera",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.balcony",
+      "friendly_name": "Balcony",
+      "domain": "light",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.balcony_2",
+      "friendly_name": "Balcony",
+      "domain": "light",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.balcony_rail",
+      "friendly_name": "Balcony Rail",
+      "domain": "light",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.bedroom",
+      "friendly_name": "Bedroom",
+      "domain": "light",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.bedroom_candle",
+      "friendly_name": "Bedroom Candle",
+      "domain": "light",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.bedroom_ricky",
+      "friendly_name": "Bedroom Ricky",
+      "domain": "light",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.bedroom_shelf",
+      "friendly_name": "Bedroom Shelf",
+      "domain": "light",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.bedroom_tower",
+      "friendly_name": "Bedroom Tower",
+      "domain": "light",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.bedroom_tower_2",
+      "friendly_name": "Bedroom Tower 2",
+      "domain": "light",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.bedtime",
+      "friendly_name": "Bedtime",
+      "domain": "light",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.candle",
+      "friendly_name": "Candle",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.christmas_tree",
+      "friendly_name": "Christmas Tree",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.dining_1",
+      "friendly_name": "Dining 1",
+      "domain": "light",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.dining_2",
+      "friendly_name": "Dining 2",
+      "domain": "light",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.dining_3",
+      "friendly_name": "Dining 3",
+      "domain": "light",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.dining_room",
+      "friendly_name": "Dining Room",
+      "domain": "light",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.festavia_string_lights_1",
+      "friendly_name": "Festavia string lights 1",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.front_kitchen",
+      "friendly_name": "Front + Kitchen",
+      "domain": "light",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.front_lights",
+      "friendly_name": "Front Lights",
+      "domain": "light",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.guest_room",
+      "friendly_name": "Guest Room",
+      "domain": "light",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.guest_room_2",
+      "friendly_name": "Guest Room",
+      "domain": "light",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.home_assistant_connect_zwa_2_led",
+      "friendly_name": "Home Assistant Connect ZWA-2 LED",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.hue_banana",
+      "friendly_name": "Hue Banana",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.hue_bloom_1",
+      "friendly_name": "Hue bloom 1",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.hue_bloom_2",
+      "friendly_name": "Hue bloom 2",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.hue_lightstrip_1",
+      "friendly_name": "Hue lightstrip 1",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.hue_play_1",
+      "friendly_name": "Hue play 1",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.hue_play_2",
+      "friendly_name": "Hue play 2",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.hue_play_gradient_lightstrip_1",
+      "friendly_name": "Hue play gradient lightstrip 1",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.johns_lamp",
+      "friendly_name": "John’s Lamp",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.johns_lamp_2",
+      "friendly_name": "John’s Lamp",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.kitchen",
+      "friendly_name": "Kitchen",
+      "domain": "light",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.living_room",
+      "friendly_name": "Living Room",
+      "domain": "light",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.north_kitchen",
+      "friendly_name": "North Kitchen",
+      "domain": "light",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.office",
+      "friendly_name": "Office",
+      "domain": "light",
+      "area": "Office",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.outdoor_lights",
+      "friendly_name": "Outdoor Lights",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.perifo_cylinder_spot_1",
+      "friendly_name": "Perifo cylinder spot 1",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.perifo_cylinder_spot_2",
+      "friendly_name": "Perifo cylinder spot 2",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.perifo_cylinder_spot_3",
+      "friendly_name": "Perifo cylinder spot 3",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.porch",
+      "friendly_name": "Porch",
+      "domain": "light",
+      "area": "Porch",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.porch_2",
+      "friendly_name": "Porch",
+      "domain": "light",
+      "area": "Porch",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.rickys_desk",
+      "friendly_name": "Ricky’s Desk",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.south_kitchen",
+      "friendly_name": "South Kitchen",
+      "domain": "light",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "light.table_lamp",
+      "friendly_name": "Table Lamp",
+      "domain": "light",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "lock.aqara_smart_lock_u200",
+      "friendly_name": "Aqara Smart Lock U200",
+      "domain": "lock",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "lock.fordpass_3fmtk4se9pma00556_doorlock",
+      "friendly_name": "Doors",
+      "domain": "lock",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.arc",
+      "friendly_name": "Arc",
+      "domain": "media_player",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.arc_2",
+      "friendly_name": "Arc",
+      "domain": "media_player",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.bedroom",
+      "friendly_name": "Bedroom",
+      "domain": "media_player",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.bedroom_2",
+      "friendly_name": "Bedroom",
+      "domain": "media_player",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.bedroomatv",
+      "friendly_name": "BedroomATV",
+      "domain": "media_player",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.bedroomatv_2",
+      "friendly_name": "BedroomATV",
+      "domain": "media_player",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.betamacm4",
+      "friendly_name": "BetaMacM4",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.gizmo",
+      "friendly_name": "Gizmo",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.guest_room",
+      "friendly_name": "Guest Room",
+      "domain": "media_player",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.kitchen",
+      "friendly_name": "Kitchen",
+      "domain": "media_player",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.lg_webos_tv_oled55e6p",
+      "friendly_name": "[LG] webOS TV OLED55E6P",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.lg_webos_tv_oled55e6p_u",
+      "friendly_name": "LG_Bedroom",
+      "domain": "media_player",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.lg_webos_tv_oled65g4sub",
+      "friendly_name": "[LG] webOS TV OLED65G4SUB",
+      "domain": "media_player",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.lg_webos_tv_oled65g4sub_2",
+      "friendly_name": "[LG] webOS TV OLED65G4SUB",
+      "domain": "media_player",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.livingroomatv",
+      "friendly_name": "LivingRoomATV",
+      "domain": "media_player",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.livingroomatv_2",
+      "friendly_name": "LivingRoomATV",
+      "domain": "media_player",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.oppo_udp_203",
+      "friendly_name": "OPPO UDP-203",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.oppo_udp_203_2",
+      "friendly_name": "OPPO UDP-203",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.port",
+      "friendly_name": "Port",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.port_2",
+      "friendly_name": "Port",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.rickytv",
+      "friendly_name": "RickyTV",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.rokutv",
+      "friendly_name": "RokuTV",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "media_player.rokutv_2",
+      "friendly_name": "RokuTV",
+      "domain": "media_player",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "person.john",
+      "friendly_name": "John",
+      "domain": "person",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "person.ricky",
+      "friendly_name": "Ricky",
+      "domain": "person",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_amber_bloom",
+      "friendly_name": "Balcony Amber bloom",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_amber_fireplace",
+      "friendly_name": "Balcony Amber Fireplace",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_blue_planet",
+      "friendly_name": "Balcony Blue Planet",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_cancun",
+      "friendly_name": "Balcony Cancun",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_coastal_nights",
+      "friendly_name": "Balcony Coastal nights",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_crocus",
+      "friendly_name": "Balcony Crocus",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_downtown_drizzle",
+      "friendly_name": "Balcony Downtown drizzle",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_fairfax",
+      "friendly_name": "Balcony Fairfax",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_forest_adventure",
+      "friendly_name": "Balcony Forest adventure",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_forth_of_july",
+      "friendly_name": "Balcony Forth of July",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_glowing_grins",
+      "friendly_name": "Balcony Glowing grins",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_golden_star",
+      "friendly_name": "Balcony Golden star",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_hocus_pocus",
+      "friendly_name": "Balcony Hocus pocus",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_ibiza",
+      "friendly_name": "Balcony Ibiza",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_malibu_pink",
+      "friendly_name": "Balcony Malibu pink",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_memento",
+      "friendly_name": "Balcony Memento",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_pandemonium",
+      "friendly_name": "Balcony Pandemonium",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_phantom",
+      "friendly_name": "Balcony Phantom",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_pride_flag",
+      "friendly_name": "Balcony Pride Flag",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_among_the_pines",
+      "friendly_name": "Balcony Rail Among the pines",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_chinatown",
+      "friendly_name": "Balcony Rail Chinatown",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_crocus",
+      "friendly_name": "Balcony Rail Crocus",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_emerald_flutter",
+      "friendly_name": "Balcony Rail Emerald flutter",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_hanukkah",
+      "friendly_name": "Balcony Rail Hanukkah",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_rio",
+      "friendly_name": "Balcony Rail Rio",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_ruby_romance",
+      "friendly_name": "Balcony Rail Ruby romance",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_silent_night",
+      "friendly_name": "Balcony Rail Silent night",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_under_the_tree",
+      "friendly_name": "Balcony Rail Under the tree",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rail_xmas_green",
+      "friendly_name": "Balcony Rail Xmas Green",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_rio",
+      "friendly_name": "Balcony Rio",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_ruby_romance",
+      "friendly_name": "Balcony Ruby romance",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_scarlet_dream",
+      "friendly_name": "Balcony Scarlet dream",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_silent_night",
+      "friendly_name": "Balcony Silent night",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_soho",
+      "friendly_name": "Balcony Soho",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_spellbound",
+      "friendly_name": "Balcony Spellbound",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_st_paddys_day",
+      "friendly_name": "Balcony St Paddy’s Day",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_tdov",
+      "friendly_name": "Balcony TDOV",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_toil_and_trouble",
+      "friendly_name": "Balcony Toil and trouble",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_trick_or_treat",
+      "friendly_name": "Balcony Trick or treat",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_ukraine",
+      "friendly_name": "Balcony Ukraine",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_under_the_tree",
+      "friendly_name": "Balcony Under the tree",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_usa",
+      "friendly_name": "Balcony USA",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.balcony_witching_hour",
+      "friendly_name": "Balcony Witching hour",
+      "domain": "scene",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_arctic_aurora",
+      "friendly_name": "Bedroom Arctic aurora",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_arise",
+      "friendly_name": "Bedroom Arise",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_bright",
+      "friendly_name": "Bedroom Bright",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_concentrate",
+      "friendly_name": "Bedroom Concentrate",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_dimmed",
+      "friendly_name": "Bedroom Dimmed",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_energize",
+      "friendly_name": "Bedroom Energize",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_natural_light",
+      "friendly_name": "Bedroom Natural light",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_nightlight",
+      "friendly_name": "Bedroom Nightlight",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_nighttime",
+      "friendly_name": "Bedroom Nighttime",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_read",
+      "friendly_name": "Bedroom Read",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_relax",
+      "friendly_name": "Bedroom Relax",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_rest",
+      "friendly_name": "Bedroom Rest",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_savanna_sunset",
+      "friendly_name": "Bedroom Savanna sunset",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_shine",
+      "friendly_name": "Bedroom Shine",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_sleepy",
+      "friendly_name": "Bedroom Sleepy",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_spring_blossom",
+      "friendly_name": "Bedroom Spring blossom",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_storybook",
+      "friendly_name": "Bedroom Storybook",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_tropical_twilight",
+      "friendly_name": "Bedroom Tropical twilight",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedroom_unwind",
+      "friendly_name": "Bedroom Unwind",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedtime_concentrate",
+      "friendly_name": "Bedtime Concentrate",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedtime_energize",
+      "friendly_name": "Bedtime Energize",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedtime_natural_light_3",
+      "friendly_name": "Bedtime Natural light 3",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedtime_nightlight",
+      "friendly_name": "Bedtime Nightlight",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedtime_read",
+      "friendly_name": "Bedtime Read",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedtime_relax",
+      "friendly_name": "Bedtime Relax",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.bedtime_rest",
+      "friendly_name": "Bedtime Rest",
+      "domain": "scene",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_arctic_aurora",
+      "friendly_name": "Candle Arctic aurora",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_bright",
+      "friendly_name": "Candle Bright",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_concentrate",
+      "friendly_name": "Candle Concentrate",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_dimmed",
+      "friendly_name": "Candle Dimmed",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_energize",
+      "friendly_name": "Candle Energize",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_nightlight",
+      "friendly_name": "Candle Nightlight",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_read",
+      "friendly_name": "Candle Read",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_relax",
+      "friendly_name": "Candle Relax",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_savanna_sunset",
+      "friendly_name": "Candle Savanna sunset",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_spring_blossom",
+      "friendly_name": "Candle Spring blossom",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.candle_tropical_twilight",
+      "friendly_name": "Candle Tropical twilight",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.christmas_tree_cool_bright",
+      "friendly_name": "Christmas Tree Cool bright",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.christmas_tree_hanakkah",
+      "friendly_name": "Christmas Tree Hanakkah",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.christmas_tree_pride_tree",
+      "friendly_name": "Christmas Tree Pride Tree",
+      "domain": "scene",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_amber_bloom",
+      "friendly_name": "Dining Room Amber bloom",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_arctic_aurora",
+      "friendly_name": "Dining Room Arctic aurora",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_bright",
+      "friendly_name": "Dining Room Bright",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_classic_light",
+      "friendly_name": "Dining Room Classic Light",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_concentrate",
+      "friendly_name": "Dining Room Concentrate",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_dimmed",
+      "friendly_name": "Dining Room Dimmed",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_energize",
+      "friendly_name": "Dining Room Energize",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_nightlight",
+      "friendly_name": "Dining Room Nightlight",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_read",
+      "friendly_name": "Dining Room Read",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_relax",
+      "friendly_name": "Dining Room Relax",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_savanna_sunset",
+      "friendly_name": "Dining Room Savanna sunset",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_spring_blossom",
+      "friendly_name": "Dining Room Spring blossom",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.dining_room_tropical_twilight",
+      "friendly_name": "Dining Room Tropical twilight",
+      "domain": "scene",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_amber_bloom",
+      "friendly_name": "Front + Kitchen Amber bloom",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_arise",
+      "friendly_name": "Front + Kitchen Arise",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_baby_s_breath",
+      "friendly_name": "Front + Kitchen Baby's breath",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_blossom",
+      "friendly_name": "Front + Kitchen Blossom",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_concentrate",
+      "friendly_name": "Front + Kitchen Concentrate",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_dreamy_dusk",
+      "friendly_name": "Front + Kitchen Dreamy dusk",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_energize",
+      "friendly_name": "Front + Kitchen Energize",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_golden_hours_3",
+      "friendly_name": "Front + Kitchen Golden hours 3",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_natural_light_2",
+      "friendly_name": "Front + Kitchen Natural light 2",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_nature_s_colors_3",
+      "friendly_name": "Front + Kitchen Nature's colors 3",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_nightlight",
+      "friendly_name": "Front + Kitchen Nightlight",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_nighttime",
+      "friendly_name": "Front + Kitchen Nighttime",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_pensive",
+      "friendly_name": "Front + Kitchen Pensive",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_read",
+      "friendly_name": "Front + Kitchen Read",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_relax",
+      "friendly_name": "Front + Kitchen Relax",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_rest",
+      "friendly_name": "Front + Kitchen Rest",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_shine",
+      "friendly_name": "Front + Kitchen Shine",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_sleepy",
+      "friendly_name": "Front + Kitchen Sleepy",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_storybook",
+      "friendly_name": "Front + Kitchen Storybook",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_kitchen_unwind",
+      "friendly_name": "Front + Kitchen Unwind",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_amber_bloom",
+      "friendly_name": "Front Lights Amber bloom",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_arise",
+      "friendly_name": "Front Lights Arise",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_autumn_gold",
+      "friendly_name": "Front Lights Autumn gold",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_baby_s_breath",
+      "friendly_name": "Front Lights Baby's breath",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_blossom",
+      "friendly_name": "Front Lights Blossom",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_bright",
+      "friendly_name": "Front Lights Bright",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_concentrate",
+      "friendly_name": "Front Lights Concentrate",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_dreamy_dusk",
+      "friendly_name": "Front Lights Dreamy dusk",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_emerald_isle",
+      "friendly_name": "Front Lights Emerald isle",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_energize",
+      "friendly_name": "Front Lights Energize",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_fairfax",
+      "friendly_name": "Front Lights Fairfax",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_glowing_grins",
+      "friendly_name": "Front Lights Glowing grins",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_golden_hours",
+      "friendly_name": "Front Lights Golden hours",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_golden_star",
+      "friendly_name": "Front Lights Golden star",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_hal",
+      "friendly_name": "Front Lights Hal",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_horizon",
+      "friendly_name": "Front Lights Horizon",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_natural_light",
+      "friendly_name": "Front Lights Natural light",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_nature_s_colors",
+      "friendly_name": "Front Lights Nature's colors",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_nightlight",
+      "friendly_name": "Front Lights Nightlight",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_nighttime",
+      "friendly_name": "Front Lights Nighttime",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_pensive",
+      "friendly_name": "Front Lights Pensive",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_phantom",
+      "friendly_name": "Front Lights Phantom",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_read",
+      "friendly_name": "Front Lights Read",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_relax",
+      "friendly_name": "Front Lights Relax",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_rest",
+      "friendly_name": "Front Lights Rest",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_rio",
+      "friendly_name": "Front Lights Rio",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_rolling_hills",
+      "friendly_name": "Front Lights Rolling hills",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_shine",
+      "friendly_name": "Front Lights Shine",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_silent_night",
+      "friendly_name": "Front Lights Silent night",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_sleepy",
+      "friendly_name": "Front Lights Sleepy",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_spellbound",
+      "friendly_name": "Front Lights Spellbound",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_starlight",
+      "friendly_name": "Front Lights Starlight",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_storybook",
+      "friendly_name": "Front Lights Storybook",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_sundown",
+      "friendly_name": "Front Lights Sundown",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_tropical_twilight",
+      "friendly_name": "Front Lights Tropical twilight",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_unwind",
+      "friendly_name": "Front Lights Unwind",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.front_lights_witching_hour",
+      "friendly_name": "Front Lights Witching hour",
+      "domain": "scene",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_bright",
+      "friendly_name": "Guest Room Bright",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_concentrate",
+      "friendly_name": "Guest Room Concentrate",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_dimmed",
+      "friendly_name": "Guest Room Dimmed",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_energize",
+      "friendly_name": "Guest Room Energize",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_honolulu",
+      "friendly_name": "Guest Room Honolulu",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_natural_light",
+      "friendly_name": "Guest Room Natural light",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_nightlight",
+      "friendly_name": "Guest Room Nightlight",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_read",
+      "friendly_name": "Guest Room Read",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_relax",
+      "friendly_name": "Guest Room Relax",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.guest_room_rest",
+      "friendly_name": "Guest Room Rest",
+      "domain": "scene",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_amber_bloom",
+      "friendly_name": "Kitchen Amber bloom",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_arise",
+      "friendly_name": "Kitchen Arise",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_baby_s_breath",
+      "friendly_name": "Kitchen Baby's breath",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_blossom",
+      "friendly_name": "Kitchen Blossom",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_concentrate",
+      "friendly_name": "Kitchen Concentrate",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_dreamy_dusk",
+      "friendly_name": "Kitchen Dreamy dusk",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_energize",
+      "friendly_name": "Kitchen Energize",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_golden_hours",
+      "friendly_name": "Kitchen Golden hours",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_natural_light",
+      "friendly_name": "Kitchen Natural light",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_nature_s_colors",
+      "friendly_name": "Kitchen Nature's colors",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_nightlight",
+      "friendly_name": "Kitchen Nightlight",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_nighttime",
+      "friendly_name": "Kitchen Nighttime",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_pensive",
+      "friendly_name": "Kitchen Pensive",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_read",
+      "friendly_name": "Kitchen Read",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_relax",
+      "friendly_name": "Kitchen Relax",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_rest",
+      "friendly_name": "Kitchen Rest",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_shine",
+      "friendly_name": "Kitchen Shine",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_sleepy",
+      "friendly_name": "Kitchen Sleepy",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_storybook",
+      "friendly_name": "Kitchen Storybook",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.kitchen_unwind",
+      "friendly_name": "Kitchen Unwind",
+      "domain": "scene",
+      "area": "Kitchen",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_amber_bloom",
+      "friendly_name": "Living Room Amber bloom",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_arctic_aurora",
+      "friendly_name": "Living Room Arctic aurora",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_arise",
+      "friendly_name": "Living Room Arise",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_baby_s_breath",
+      "friendly_name": "Living Room Baby's breath",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_blossom",
+      "friendly_name": "Living Room Blossom",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_bright",
+      "friendly_name": "Living Room Bright",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_classic_light",
+      "friendly_name": "Living Room Classic Light",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_concentrate",
+      "friendly_name": "Living Room Concentrate",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_dimmed",
+      "friendly_name": "Living Room Dimmed",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_dreamy_dusk",
+      "friendly_name": "Living Room Dreamy dusk",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_energize",
+      "friendly_name": "Living Room Energize",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_golden_hours_2",
+      "friendly_name": "Living Room Golden hours 2",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_natural_light_4",
+      "friendly_name": "Living Room Natural light 4",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_nature_s_colors_2",
+      "friendly_name": "Living Room Nature's colors 2",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_nightlight",
+      "friendly_name": "Living Room Nightlight",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_nighttime",
+      "friendly_name": "Living Room Nighttime",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_pensive",
+      "friendly_name": "Living Room Pensive",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_read",
+      "friendly_name": "Living Room Read",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_relax",
+      "friendly_name": "Living Room Relax",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_rest",
+      "friendly_name": "Living Room Rest",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_savanna_sunset",
+      "friendly_name": "Living Room Savanna sunset",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_shine",
+      "friendly_name": "Living Room Shine",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_sleepy",
+      "friendly_name": "Living Room Sleepy",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_spring_blossom",
+      "friendly_name": "Living Room Spring blossom",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_storybook",
+      "friendly_name": "Living Room Storybook",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_tropical_twilight",
+      "friendly_name": "Living Room Tropical twilight",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_tropical_twilight_2",
+      "friendly_name": "Living Room Tropical twilight",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.living_room_unwind",
+      "friendly_name": "Living Room Unwind",
+      "domain": "scene",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.office_relax",
+      "friendly_name": "Office Relax",
+      "domain": "scene",
+      "area": "Office",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.office_rio",
+      "friendly_name": "Office Rio",
+      "domain": "scene",
+      "area": "Office",
+      "notes": ""
+    },
+    {
+      "entity_id": "scene.porch_bright",
+      "friendly_name": "Porch Bright",
+      "domain": "scene",
+      "area": "Porch",
+      "notes": ""
+    },
+    {
+      "entity_id": "script.1773940903204",
+      "friendly_name": "bose_power",
+      "domain": "script",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "script.bose_mute",
+      "friendly_name": "bose_mute",
+      "domain": "script",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "script.bose_volume_down",
+      "friendly_name": "bose_volume_down",
+      "domain": "script",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "script.bose_volume_up",
+      "friendly_name": "bose_volume_up",
+      "domain": "script",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "script.reloas_ha_ui",
+      "friendly_name": "reload_ha_ui",
+      "domain": "script",
+      "area": "",
+      "notes": "Friendly name source contains typo mismatch with entity_id"
+    },
+    {
+      "entity_id": "script.tv_power_bedroom",
+      "friendly_name": "tv_power_bedroom",
+      "domain": "script",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.ann_heards_ipad_battery",
+      "friendly_name": "Ann Heard’s iPad Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.ann_heards_iphone_battery",
+      "friendly_name": "Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_arrival_time",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone ArrivalTime",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_badge",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone Badge",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_battery",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_battery_status",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone BatteryStatus",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_dir_of_travel",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone Direction",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_gps_accuracy",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone GPSAccuracy",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_home_distance",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone HomeDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_info",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone Info",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_interval",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone Interval",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_last_located",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone LastLocated",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_last_update",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone LastUpdate",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_moved_distance",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone MovedDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_name",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone Name",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_next_update",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone NextUpdate",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_travel_time",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone TravelTime",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_travel_time_hhmm",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone TravelTime (hh:mm)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_travel_time_min",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone TravelTime (min)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_zone_distance",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone ZoneDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.annd_iphone_zone_name",
+      "friendly_name": "Ann's Phone (annd_iphone) Ann's Phone ZoneName",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.anns_apple_watch_battery",
+      "friendly_name": "Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.aqara_motion_and_light_sensor_p2_battery",
+      "friendly_name": "Aqara Motion and Light Sensor P2 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.aqara_motion_and_light_sensor_p2_battery_type",
+      "friendly_name": "Aqara Motion and Light Sensor P2 Battery type",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.aqara_motion_and_light_sensor_p2_battery_voltage",
+      "friendly_name": "Aqara Motion and Light Sensor P2 Battery voltage",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.aqara_motion_and_light_sensor_p2_illuminance",
+      "friendly_name": "Aqara Motion and Light Sensor P2 Illuminance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.aqara_smart_lock_u200_battery",
+      "friendly_name": "Aqara Smart Lock U200 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.aqara_smart_lock_u200_battery_voltage",
+      "friendly_name": "Aqara Smart Lock U200 Battery voltage",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.arc_audio_input_format",
+      "friendly_name": "Arc Audio input format",
+      "domain": "sensor",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.backup_backup_manager_state",
+      "friendly_name": "Backup Backup Manager state",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.backup_last_attempted_automatic_backup",
+      "friendly_name": "Backup Last attempted automatic backup",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.backup_last_successful_automatic_backup",
+      "friendly_name": "Backup Last successful automatic backup",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.backup_next_scheduled_automatic_backup",
+      "friendly_name": "Backup Next scheduled automatic backup",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.backup_state",
+      "friendly_name": "Backup State",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.balcony_room_climate_battery",
+      "friendly_name": "balcony_room_climate Battery",
+      "domain": "sensor",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.balcony_room_climate_humidity",
+      "friendly_name": "balcony_room_climate Humidity",
+      "domain": "sensor",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.balcony_room_climate_pressure",
+      "friendly_name": "balcony_room_climate Atmospheric pressure",
+      "domain": "sensor",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.balcony_room_climate_temperature",
+      "friendly_name": "balcony_room_climate Temperature",
+      "domain": "sensor",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.balcony_room_climate_voltage",
+      "friendly_name": "balcony_room_climate Voltage",
+      "domain": "sensor",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.bedroom_room_climate_battery",
+      "friendly_name": "bedroom_room_climate Battery",
+      "domain": "sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.bedroom_room_climate_humidity",
+      "friendly_name": "bedroom_room_climate Humidity",
+      "domain": "sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.bedroom_room_climate_pressure",
+      "friendly_name": "bedroom_room_climate Atmospheric pressure",
+      "domain": "sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.bedroom_room_climate_temperature",
+      "friendly_name": "bedroom_room_climate Temperature",
+      "domain": "sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.bedroom_room_climate_voltage",
+      "friendly_name": "bedroom_room_climate Voltage",
+      "domain": "sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betamacm4_battery",
+      "friendly_name": "BetaMacM4 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betapad_battery",
+      "friendly_name": "Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_activity",
+      "friendly_name": "BetaPhone17 Activity",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_app_version",
+      "friendly_name": "BetaPhone17 App Version",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_audio_output",
+      "friendly_name": "BetaPhone17 Audio Output",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_average_active_pace",
+      "friendly_name": "BetaPhone17 Average Active Pace",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_battery",
+      "friendly_name": "BetaPhone17 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_battery_level",
+      "friendly_name": "BetaPhone17 Battery Level",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_battery_state",
+      "friendly_name": "BetaPhone17 Battery State",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_bssid",
+      "friendly_name": "BetaPhone17 BSSID",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_connection_type",
+      "friendly_name": "BetaPhone17 Connection Type",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_distance",
+      "friendly_name": "BetaPhone17 Distance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_floors_ascended",
+      "friendly_name": "BetaPhone17 Floors Ascended",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_floors_descended",
+      "friendly_name": "BetaPhone17 Floors Descended",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_geocoded_location",
+      "friendly_name": "BetaPhone17 Geocoded Location",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_last_update_trigger",
+      "friendly_name": "BetaPhone17 Last Update Trigger",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_location_permission",
+      "friendly_name": "BetaPhone17 Location permission",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_sim_1",
+      "friendly_name": "BetaPhone17 SIM 1",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_sim_2",
+      "friendly_name": "BetaPhone17 SIM 2",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_ssid",
+      "friendly_name": "BetaPhone17 SSID",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_steps",
+      "friendly_name": "BetaPhone17 Steps",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_storage",
+      "friendly_name": "BetaPhone17 Storage",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_watch_battery_level",
+      "friendly_name": "BetaPhone17 Watch Battery Level",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betaphone17_watch_battery_state",
+      "friendly_name": "BetaPhone17 Watch Battery State",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.betawatch3_battery",
+      "friendly_name": "BetaWatch3 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.body_scan_battery",
+      "friendly_name": "Body Scan Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.bpm_connect_battery",
+      "friendly_name": "BPM Connect Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.contact_sensor_03073_battery",
+      "friendly_name": "Contact Sensor 03073 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.contact_sensor_03073_info",
+      "friendly_name": "Contact Sensor 03073 Info",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_activity",
+      "friendly_name": "Cosmic Girl Activity",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_app_version",
+      "friendly_name": "Cosmic Girl App Version",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_audio_output",
+      "friendly_name": "Cosmic Girl Audio Output",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_average_active_pace",
+      "friendly_name": "Cosmic Girl Average Active Pace",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_battery",
+      "friendly_name": "Cosmic Girl Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_battery_level",
+      "friendly_name": "Cosmic Girl Battery Level",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_battery_state",
+      "friendly_name": "Cosmic Girl Battery State",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_bssid",
+      "friendly_name": "Cosmic Girl BSSID",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_connection_type",
+      "friendly_name": "Cosmic Girl Connection Type",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_distance",
+      "friendly_name": "Cosmic Girl Distance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_floors_ascended",
+      "friendly_name": "Cosmic Girl Floors Ascended",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_floors_descended",
+      "friendly_name": "Cosmic Girl Floors Descended",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_geocoded_location",
+      "friendly_name": "Cosmic Girl Geocoded Location",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_last_update_trigger",
+      "friendly_name": "Cosmic Girl Last Update Trigger",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_location_permission",
+      "friendly_name": "Cosmic Girl Location permission",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_sim_1",
+      "friendly_name": "Cosmic Girl SIM 1",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_sim_2",
+      "friendly_name": "Cosmic Girl SIM 2",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_ssid",
+      "friendly_name": "Cosmic Girl SSID",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_steps",
+      "friendly_name": "Cosmic Girl Steps",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.cosmic_girl_storage",
+      "friendly_name": "Cosmic Girl Storage",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.dash_device_battery_level",
+      "friendly_name": "dash_device Battery level",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.dash_device_battery_state",
+      "friendly_name": "dash_device Battery state",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.dash_device_charger_type",
+      "friendly_name": "dash_device Charger type",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.dial_bedroom_battery",
+      "friendly_name": "Dial - Bedroom Battery",
+      "domain": "sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.dial_dining_room_battery",
+      "friendly_name": "Dial - Dining Room Battery",
+      "domain": "sensor",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.eero_external_ip",
+      "friendly_name": "eero External IP",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_acceleration",
+      "friendly_name": "Acceleration",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_acceleratorpedalposition",
+      "friendly_name": "Accelerator Pedal Position",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_alarm",
+      "friendly_name": "Alarm Status",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_battery",
+      "friendly_name": "Battery (12V)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_brakepedalstatus",
+      "friendly_name": "Status Brake Pedal",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_braketorque",
+      "friendly_name": "Brake Torque",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_cabintemperature",
+      "friendly_name": "Cabin Temperature",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_coolanttemp",
+      "friendly_name": "Temperature Coolant",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_deepsleep",
+      "friendly_name": "Sleep Mode",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_deviceconnectivity",
+      "friendly_name": "Connectivity",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_doorlock",
+      "friendly_name": "State Locks",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_doorstatus",
+      "friendly_name": "Status Door",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_elveh",
+      "friendly_name": "EV",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_elvehcharging",
+      "friendly_name": "EV Charging state",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_elvehchargingpower",
+      "friendly_name": "EV charged",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_elvehplug",
+      "friendly_name": "EV Plug",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_energytransferlogentry",
+      "friendly_name": "EV Last Charging Session",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_enginespeed",
+      "friendly_name": "Revolution",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_evccstatus",
+      "friendly_name": "EVCC status code",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_gearleverposition",
+      "friendly_name": "Gear Lever Position",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_gps",
+      "friendly_name": "GPS JSON",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_ignitionstatus",
+      "friendly_name": "Status Ignition",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_indicators",
+      "friendly_name": "Indicators",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_lastenergyconsumed",
+      "friendly_name": "EV Energy Consumption (last trip)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_lastrefresh",
+      "friendly_name": "last refresh",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_messages",
+      "friendly_name": "Messages",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_odometer",
+      "friendly_name": "Odometer",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_oil",
+      "friendly_name": "Oil Life",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_outsidetemp",
+      "friendly_name": "Temperature Outdoors",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_parkingbrakestatus",
+      "friendly_name": "Status Parking Brake",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_remotestartcountdown",
+      "friendly_name": "RC (❄|☀): Remaining Time",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_remotestartstatus",
+      "friendly_name": "RC (❄|☀): Status Remote Start",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_seatbelt",
+      "friendly_name": "Belt Status",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_soc",
+      "friendly_name": "State of Charge",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_speed",
+      "friendly_name": "Speed",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_tirepressure",
+      "friendly_name": "Tire Pressure",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_torqueattransmission",
+      "friendly_name": "Torque at Transmission",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_wheeltorquestatus",
+      "friendly_name": "Status Wheel Torque",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_windowposition",
+      "friendly_name": "Window Position",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.fordpass_3fmtk4se9pma00556_yawrate",
+      "friendly_name": "Yaw Rate",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.front_door_battery",
+      "friendly_name": "Front Door Battery",
+      "domain": "sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.front_door_battery_2",
+      "friendly_name": "Front Door Battery",
+      "domain": "sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.front_door_battery_3",
+      "friendly_name": "Front Door Battery",
+      "domain": "sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.front_door_info",
+      "friendly_name": "Front Door Info",
+      "domain": "sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.front_door_info_2",
+      "friendly_name": "Front Door Info",
+      "domain": "sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.front_door_last_activity",
+      "friendly_name": "Front Door Last activity",
+      "domain": "sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.front_door_wireless",
+      "friendly_name": "Front Door Wireless",
+      "domain": "sensor",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.gizmo_battery",
+      "friendly_name": "Gizmo Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.guest_room_climate_battery",
+      "friendly_name": "guest_room_climate Battery",
+      "domain": "sensor",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.guest_room_climate_humidity",
+      "friendly_name": "guest_room_climate Humidity",
+      "domain": "sensor",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.guest_room_climate_pressure",
+      "friendly_name": "guest_room_climate Atmospheric pressure",
+      "domain": "sensor",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.guest_room_climate_temperature",
+      "friendly_name": "guest_room_climate Temperature",
+      "domain": "sensor",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.guest_room_climate_voltage",
+      "friendly_name": "guest_room_climate Voltage",
+      "domain": "sensor",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.home_assistant_connect_zwa_2_status",
+      "friendly_name": "Home Assistant Connect ZWA-2 Status",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.hue_dimmer_guest_room_battery",
+      "friendly_name": "Hue Dimmer  -  Guest Room Battery",
+      "domain": "sensor",
+      "area": "Guest Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.hue_dimmer_switch_2_battery",
+      "friendly_name": "Hue dimmer switch 2 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.hue_dimmer_switch_3_battery",
+      "friendly_name": "Hue dimmer switch 3 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.hue_wall_switch_module_1_battery",
+      "friendly_name": "Hue wall switch module 1 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_alerts",
+      "friendly_name": "iCloud3 Integration iCloud3 Alerts",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_arrival_time",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone ArrivalTime",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_badge",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone Badge",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_battery",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_battery_status",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone BatteryStatus",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_dir_of_travel",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone Direction",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_gps_accuracy",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone GPSAccuracy",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_home_distance",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone HomeDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_info",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone Info",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_interval",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone Interval",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_last_located",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone LastLocated",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_last_update",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone LastUpdate",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_moved_distance",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone MovedDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_name",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone Name",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_next_update",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone NextUpdate",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_travel_time",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone TravelTime",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_travel_time_hhmm",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone TravelTime (hh:mm)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_travel_time_min",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone TravelTime (min)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_zone_distance",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone ZoneDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_betaphone17_zone_name",
+      "friendly_name": "Ricky iPhone (icloud3_betaphone17) Ricky iPhone ZoneName",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_arrival_time",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone ArrivalTime",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_badge",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone Badge",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_battery",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_battery_status",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone BatteryStatus",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_dir_of_travel",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone Direction",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_gps_accuracy",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone GPSAccuracy",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_home_distance",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone HomeDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_info",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone Info",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_interval",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone Interval",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_last_located",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone LastLocated",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_last_update",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone LastUpdate",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_moved_distance",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone MovedDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_name",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone Name",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_next_update",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone NextUpdate",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_travel_time",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone TravelTime",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_travel_time_hhmm",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone TravelTime (hh:mm)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_travel_time_min",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone TravelTime (min)",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_zone_distance",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone ZoneDistance",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_cosmicphone17_zone_name",
+      "friendly_name": "John iPhone (icloud3_cosmicphone17) John iPhone ZoneName",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_event_log",
+      "friendly_name": "iCloud3 Integration iCloud3 Event Log",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.icloud3_wazehist_track",
+      "friendly_name": "iCloud3 Integration iCloud3 Waze History Track",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.johns_apple_watch_battery",
+      "friendly_name": "John’s Apple Watch Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.johns_ipad_battery",
+      "friendly_name": "John’s iPad Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.keypad_52030_battery",
+      "friendly_name": "Keypad 52030 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.keypad_52030_info",
+      "friendly_name": "Keypad 52030 Info",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.living_room_battery",
+      "friendly_name": "Living Room Battery",
+      "domain": "sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.living_room_info",
+      "friendly_name": "Living Room Info",
+      "domain": "sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.living_room_last_activity",
+      "friendly_name": "Living Room Last activity",
+      "domain": "sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.living_room_wireless",
+      "friendly_name": "Living Room Wireless",
+      "domain": "sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.motion_detector_31982_battery",
+      "friendly_name": "Motion Detector 31982 Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.motion_detector_31982_info",
+      "friendly_name": "Motion Detector 31982 Info",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.now_playing_omdb_bedroom",
+      "friendly_name": "Now Playing OMDb Bedroom",
+      "domain": "sensor",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.now_playing_omdb_living_room",
+      "friendly_name": "Now Playing OMDb Living Room",
+      "domain": "sensor",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.pro_padd_ai_battery",
+      "friendly_name": "Pro PADD AI Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_battery",
+      "friendly_name": "Roborock Qrevo Edge Series Battery",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_cleaning_area",
+      "friendly_name": "Roborock Qrevo Edge Series Cleaning area",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_cleaning_progress",
+      "friendly_name": "Roborock Qrevo Edge Series Cleaning progress",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_cleaning_time",
+      "friendly_name": "Roborock Qrevo Edge Series Cleaning time",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_current_room",
+      "friendly_name": "Roborock Qrevo Edge Series Current room",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_dock_dock_error",
+      "friendly_name": "Roborock Qrevo Edge Series Dock Dock error",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_dock_mop_drying_remaining_time",
+      "friendly_name": "Roborock Qrevo Edge Series Dock Mop drying remaining time",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_dock_strainer_time_left",
+      "friendly_name": "Roborock Qrevo Edge Series Dock Strainer time left",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_filter_time_left",
+      "friendly_name": "Roborock Qrevo Edge Series Filter time left",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_last_clean_begin",
+      "friendly_name": "Roborock Qrevo Edge Series Last clean begin",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_last_clean_end",
+      "friendly_name": "Roborock Qrevo Edge Series Last clean end",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_main_brush_time_left",
+      "friendly_name": "Roborock Qrevo Edge Series Main brush time left",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_sensor_time_left",
+      "friendly_name": "Roborock Qrevo Edge Series Sensor time left",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_side_brush_time_left",
+      "friendly_name": "Roborock Qrevo Edge Series Side brush time left",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_status",
+      "friendly_name": "Roborock Qrevo Edge Series Status",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_total_cleaning_area",
+      "friendly_name": "Roborock Qrevo Edge Series Total cleaning area",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_total_cleaning_count",
+      "friendly_name": "Roborock Qrevo Edge Series Total cleaning count",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_total_cleaning_time",
+      "friendly_name": "Roborock Qrevo Edge Series Total cleaning time",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.roborock_qrevo_edge_series_vacuum_error",
+      "friendly_name": "Roborock Qrevo Edge Series Vacuum error",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.rokutv_active_app",
+      "friendly_name": "RokuTV Active app",
+      "domain": "sensor",
+      "area": "RokuTV",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.rokutv_active_app_id",
+      "friendly_name": "RokuTV Active app ID",
+      "domain": "sensor",
+      "area": "RokuTV",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.santa_monica_alarm_info",
+      "friendly_name": "Santa Monica Alarm Info",
+      "domain": "sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.santa_monica_base_station_info",
+      "friendly_name": "Santa Monica Base Station Info",
+      "domain": "sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.santa_monica_base_station_wireless",
+      "friendly_name": "Santa Monica Base Station Wireless",
+      "domain": "sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.santa_monica_range_extender_battery",
+      "friendly_name": "Santa Monica Range Extender Battery",
+      "domain": "sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.santa_monica_range_extender_info",
+      "friendly_name": "Santa Monica Range Extender Info",
+      "domain": "sensor",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.sun_next_dawn",
+      "friendly_name": "Sun Next dawn",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.sun_next_dusk",
+      "friendly_name": "Sun Next dusk",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.sun_next_midnight",
+      "friendly_name": "Sun Next midnight",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.sun_next_noon",
+      "friendly_name": "Sun Next noon",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.sun_next_rising",
+      "friendly_name": "Sun Next rising",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.sun_next_setting",
+      "friendly_name": "Sun Next setting",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.upstairs_info",
+      "friendly_name": "Upstairs Info",
+      "domain": "sensor",
+      "area": "Upstairs",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.upstairs_wireless",
+      "friendly_name": "Upstairs Wireless",
+      "domain": "sensor",
+      "area": "Upstairs",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.wikimedia_on_this_day",
+      "friendly_name": "Wikimedia On This Day",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_active_calories_burnt_today",
+      "friendly_name": "Withings Active calories burnt today",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_active_time_today",
+      "friendly_name": "Withings Active time today",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_calories_burnt_last_workout",
+      "friendly_name": "Withings Calories burnt last workout",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_distance_travelled_last_workout",
+      "friendly_name": "Withings Distance travelled last workout",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_distance_travelled_today",
+      "friendly_name": "Withings Distance travelled today",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_elevation_change_last_workout",
+      "friendly_name": "Withings Elevation change last workout",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_elevation_change_today",
+      "friendly_name": "Withings Elevation change today",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_last_workout_duration",
+      "friendly_name": "Withings Last workout duration",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_last_workout_intensity",
+      "friendly_name": "Withings Last workout intensity",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_last_workout_type",
+      "friendly_name": "Withings Last workout type",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_pause_during_last_workout",
+      "friendly_name": "Withings Pause during last workout",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_steps_today",
+      "friendly_name": "Withings Steps today",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_total_calories_burnt_today",
+      "friendly_name": "Withings Total calories burnt today",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_weight",
+      "friendly_name": "Withings Weight",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.withings_weight_goal",
+      "friendly_name": "Withings Weight goal",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "sensor.zigbee2mqtt_bridge_version",
+      "friendly_name": "Zigbee2MQTT Bridge Version",
+      "domain": "sensor",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.aqara_hub_m3_7069_pairing_mode",
+      "friendly_name": "Aqara-Hub-M3-7069 Pairing Mode",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.arc_crossfade",
+      "friendly_name": "Arc Crossfade",
+      "domain": "switch",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.arc_loudness",
+      "friendly_name": "Arc Loudness",
+      "domain": "switch",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.arc_night_sound",
+      "friendly_name": "Arc Night sound",
+      "domain": "switch",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.arc_speech_enhancement",
+      "friendly_name": "Arc Speech enhancement",
+      "domain": "switch",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.arc_subwoofer_enabled",
+      "friendly_name": "Arc Subwoofer enabled",
+      "domain": "switch",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.arc_surround_enabled",
+      "friendly_name": "Arc Surround enabled",
+      "domain": "switch",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.arc_surround_music_full_volume",
+      "friendly_name": "Arc Surround music full volume",
+      "domain": "switch",
+      "area": "Arc",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_balcony_lights",
+      "friendly_name": "Beta Hue Automation: Balcony Lights",
+      "domain": "switch",
+      "area": "Balcony",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_candle",
+      "friendly_name": "Beta Hue Automation: Candle",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_christmas_tree",
+      "friendly_name": "Beta Hue Automation: Christmas Tree",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_dial_bedroom",
+      "friendly_name": "Beta Hue Automation: Dial - Bedroom",
+      "domain": "switch",
+      "area": "Bedroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_dial_dining_room",
+      "friendly_name": "Beta Hue Automation: Dial - Dining Room",
+      "domain": "switch",
+      "area": "Dining Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_entertainment_room_end_behavior",
+      "friendly_name": "Beta Hue Automation: Entertainment room end behavior",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_entertainment_room_end_behavior_2",
+      "friendly_name": "Beta Hue Automation: Entertainment room end behavior",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_evening_lights",
+      "friendly_name": "Beta Hue Automation: Evening Lights",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_go_to_sleep",
+      "friendly_name": "Beta Hue Automation: Go to sleep",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_hue_dimmer_switch_1",
+      "friendly_name": "Beta Hue Automation: Hue dimmer switch 1",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_hue_dimmer_switch_2",
+      "friendly_name": "Beta Hue Automation: Hue dimmer switch 2",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_hue_dimmer_switch_3",
+      "friendly_name": "Beta Hue Automation: Hue dimmer switch 3",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_hue_wall_switch_module_1",
+      "friendly_name": "Beta Hue Automation: Hue wall switch module 1",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_johns_lamp",
+      "friendly_name": "Beta Hue Automation: John’s Lamp",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_mimic_presence",
+      "friendly_name": "Beta Hue Automation: Mimic presence",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_porch_light",
+      "friendly_name": "Beta Hue Automation: Porch light ",
+      "domain": "switch",
+      "area": "Porch",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.automation_wake_up",
+      "friendly_name": "Beta Hue Automation: Wake up",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.fordpass_3fmtk4se9pma00556_autosoftwareupdates",
+      "friendly_name": "Automatic Software Updates",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.fordpass_3fmtk4se9pma00556_elvehcharge",
+      "friendly_name": "EV Charging (Pause)",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.fordpass_3fmtk4se9pma00556_ignition",
+      "friendly_name": "RC (❄|☀): Start [RemoteControl]",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.fordpass_3fmtk4se9pma00556_rccdefrostfront",
+      "friendly_name": "RC (❄|☀): Heated Windshield [RemoteControl]",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.fordpass_3fmtk4se9pma00556_rccdefrostrear",
+      "friendly_name": "RC (❄|☀): Rear Defrost [RemoteControl]",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.fordpass_3fmtk4se9pma00556_rccsteeringwheel",
+      "friendly_name": "RC (❄|☀): Steering Wheel Heating [RemoteControl]",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.front_door_event_stream",
+      "friendly_name": "Front Door Event Stream",
+      "domain": "switch",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.front_door_live_stream",
+      "friendly_name": "Front Door Live Stream",
+      "domain": "switch",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.front_door_motion_detection",
+      "friendly_name": "Front Door Motion detection",
+      "domain": "switch",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.front_door_motion_detection_2",
+      "friendly_name": "Front Door Motion Detection",
+      "domain": "switch",
+      "area": "Front Door",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.home_assistant_connect_zbt_1_046ce17c_beta_firmware_updates",
+      "friendly_name": "Home Assistant Connect ZBT-1 Beta firmware updates",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.keypad_52030_chirps",
+      "friendly_name": "Keypad 52030 Chirps",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.living_room_event_stream",
+      "friendly_name": "Living Room Event Stream",
+      "domain": "switch",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.living_room_live_stream",
+      "friendly_name": "Living Room Live Stream",
+      "domain": "switch",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.living_room_motion_detection",
+      "friendly_name": "Living Room Motion detection",
+      "domain": "switch",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.living_room_motion_detection_2",
+      "friendly_name": "Living Room Motion Detection",
+      "domain": "switch",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.living_room_motion_warning",
+      "friendly_name": "Living Room Motion Warning",
+      "domain": "switch",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.living_room_siren",
+      "friendly_name": "Living Room Siren",
+      "domain": "switch",
+      "area": "Living Room",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.port_crossfade",
+      "friendly_name": "Port Crossfade",
+      "domain": "switch",
+      "area": "Port",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.port_loudness",
+      "friendly_name": "Port Loudness",
+      "domain": "switch",
+      "area": "Port",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.roborock_qrevo_edge_series_do_not_disturb",
+      "friendly_name": "Roborock Qrevo Edge Series Do not disturb",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.roborock_qrevo_edge_series_dock_child_lock",
+      "friendly_name": "Roborock Qrevo Edge Series Dock Child lock",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.santa_monica_alarm_siren",
+      "friendly_name": "Santa Monica Alarm Siren",
+      "domain": "switch",
+      "area": "Santa Monica",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.smart_plug",
+      "friendly_name": "bathroom_switch",
+      "domain": "switch",
+      "area": "Bathroom",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.upstairs_play_ding_sound",
+      "friendly_name": "Upstairs Play Ding Sound",
+      "domain": "switch",
+      "area": "Upstairs",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.upstairs_play_motion_sound",
+      "friendly_name": "Upstairs Play Motion Sound",
+      "domain": "switch",
+      "area": "Upstairs",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.upstairs_snooze",
+      "friendly_name": "Upstairs Snooze",
+      "domain": "switch",
+      "area": "Upstairs",
+      "notes": ""
+    },
+    {
+      "entity_id": "switch.zigbee2mqtt_bridge_permit_join",
+      "friendly_name": "Zigbee2MQTT Bridge Permit join",
+      "domain": "switch",
+      "area": "",
+      "notes": ""
+    },
+    {
+      "entity_id": "vacuum.roborock_qrevo_edge_series",
+      "friendly_name": "Roborock Qrevo Edge Series",
+      "domain": "vacuum",
+      "area": "",
+      "notes": ""
+    }
+  ]
+}
+```
